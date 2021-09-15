@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+  }
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.clock {
+    padding: 10px;
+    text-align: center;
+}
+
+.clock-time{
+    font-family: 'Montserrat Light';
+    font-size: 150px;
+    color:#3ab89a;
+}
+
+.countdown{
+    margin-top: 60px;
+    text-align: center;
+    background-color: beige;
+}
+
+.countdown-timer{
+    font-family: 'Arial';
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    color:#3c5066;
+}
+
+.timer-pomodoro{
+    font-family: 'Arial';
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    color:#3c5066;
+}
+
+
+.quote{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat-ThinItalic';
+    font-size: 80px;
+    color:#ffffff;
+}
